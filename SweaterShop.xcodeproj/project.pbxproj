@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D18B77428F2D75C005206DA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D18B77328F2D75C005206DA /* Product.swift */; };
+		0D18B77728F2DA3C005206DA /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D18B77628F2DA3C005206DA /* ProductCard.swift */; };
+		0D65B6E628F6010000E9A7C3 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D65B6E528F6010000E9A7C3 /* ProductCardView.swift */; };
+		0D65B6E828F60A6300E9A7C3 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D65B6E728F60A6300E9A7C3 /* CartButton.swift */; };
 		0D9896D828F1E474009D94B3 /* SweaterShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9896D728F1E474009D94B3 /* SweaterShopApp.swift */; };
 		0D9896DA28F1E474009D94B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9896D928F1E474009D94B3 /* ContentView.swift */; };
 		0D9896DC28F1E475009D94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9896DB28F1E475009D94B3 /* Assets.xcassets */; };
 		0D9896DF28F1E475009D94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9896DE28F1E475009D94B3 /* Preview Assets.xcassets */; };
+		0DE530E72901589000ECAA25 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE530E62901589000ECAA25 /* CartView.swift */; };
+		0DE530EA29015A4E00ECAA25 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE530E929015A4E00ECAA25 /* CartManager.swift */; };
+		0DE530EC2901AAE900ECAA25 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE530EB2901AAE900ECAA25 /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D18B77328F2D75C005206DA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0D18B77628F2DA3C005206DA /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		0D65B6E528F6010000E9A7C3 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		0D65B6E728F60A6300E9A7C3 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		0D9896D428F1E474009D94B3 /* SweaterShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweaterShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9896D728F1E474009D94B3 /* SweaterShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweaterShopApp.swift; sourceTree = "<group>"; };
 		0D9896D928F1E474009D94B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D9896DB28F1E475009D94B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D9896DE28F1E475009D94B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DE530E62901589000ECAA25 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		0DE530E929015A4E00ECAA25 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		0DE530EB2901AAE900ECAA25 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D18B77228F2D743005206DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D18B77328F2D75C005206DA /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D18B77528F2DA0C005206DA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0D65B6E728F60A6300E9A7C3 /* CartButton.swift */,
+				0D18B77628F2DA3C005206DA /* ProductCard.swift */,
+				0DE530EB2901AAE900ECAA25 /* ProductRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0D2A206228F35BDC009571C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D9896D928F1E474009D94B3 /* ContentView.swift */,
+				0D65B6E528F6010000E9A7C3 /* ProductCardView.swift */,
+				0DE530E62901589000ECAA25 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0D9896CB28F1E474009D94B3 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				0D9896D728F1E474009D94B3 /* SweaterShopApp.swift */,
-				0D9896D928F1E474009D94B3 /* ContentView.swift */,
 				0D9896DB28F1E475009D94B3 /* Assets.xcassets */,
+				0DE530E829015A2F00ECAA25 /* Managers */,
+				0D2A206228F35BDC009571C8 /* Views */,
+				0D18B77528F2DA0C005206DA /* Components */,
+				0D18B77228F2D743005206DA /* Models */,
 				0D9896DD28F1E475009D94B3 /* Preview Content */,
 			);
 			path = SweaterShop;
@@ -65,6 +110,14 @@
 				0D9896DE28F1E475009D94B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DE530E829015A2F00ECAA25 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0DE530E929015A4E00ECAA25 /* CartManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D65B6E828F60A6300E9A7C3 /* CartButton.swift in Sources */,
+				0DE530EA29015A4E00ECAA25 /* CartManager.swift in Sources */,
+				0DE530E72901589000ECAA25 /* CartView.swift in Sources */,
 				0D9896DA28F1E474009D94B3 /* ContentView.swift in Sources */,
 				0D9896D828F1E474009D94B3 /* SweaterShopApp.swift in Sources */,
+				0D18B77428F2D75C005206DA /* Product.swift in Sources */,
+				0D18B77728F2DA3C005206DA /* ProductCard.swift in Sources */,
+				0D65B6E628F6010000E9A7C3 /* ProductCardView.swift in Sources */,
+				0DE530EC2901AAE900ECAA25 /* ProductRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
