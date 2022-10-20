@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: Constants.minProductCardWidth), spacing: Constants.productCardSpacing)], spacing: Constants.productCardSpacing) {
-                    ForEach(products) { product in
+                    ForEach(productList) { product in
                         NavigationLink(destination: ProductCardView(product)) {
                             ProductCard(product: product)
                         }

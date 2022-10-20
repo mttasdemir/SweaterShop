@@ -27,6 +27,6 @@ struct ProductCardView: View {
 
 struct ProductCardView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCardView(products[0])
+        ProductCardView(productList[0])
     }
 }

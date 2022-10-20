@@ -14,7 +14,7 @@ struct Product: Identifiable {
     let price: Int
 }
 
-let products = [ Product(name: "Blue Man Sweater", image: "BlueManSweater", price: 20),
+let productList = [ Product(name: "Blue Man Sweater", image: "BlueManSweater", price: 20),
                  Product(name: "Blue Woman Sweater", image: "BlueSweater", price: 25),
                  Product(name: "Blue White Sweater", image: "BlueWhiteSweater", price: 40),
                  Product(name: "Brown Knit Sweater", image: "BrownKnitSweater", price: 30),

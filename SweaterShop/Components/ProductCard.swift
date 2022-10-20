@@ -51,7 +51,7 @@ struct ProductCard: View {
 
 struct ProductCard_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCard(product: products[3])
+        ProductCard(product: productList[3])
             .environmentObject(CartManager())
     }
 }

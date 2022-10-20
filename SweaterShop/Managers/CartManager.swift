@@ -31,6 +31,13 @@ class CartManager: ObservableObject {
             products.remove(at: index)
             total -= product.price
         }
-        
+    }
+    
+    func removeCart(at indexSet: IndexSet) {
+        products.remove(atOffsets: indexSet)
+    }
+    
+    func moveCart(indexSet: IndexSet, count: Int) {
+        products.move(fromOffsets: indexSet, toOffset: count)
     }
 }
